@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Friend Finder Survey</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> -->
+    <script src="../../server.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11">
+                <br>
+                <h1>Survey Questions</h1>
+                <hr>
+                <h3><strong>About You</strong></h3>
+                <h4>Name: (Required)</h4>
+                <input type="text" id="name" class="form-control" required>
+                <br>
+                <h4>Link to a Photo of You: (Required)</h4>
+                <input type="text" id="photo" class="form-control" required>
+                <br>
+                <h3><strong>Question 1.</strong></h3>
+                <h5>I like helping other people.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 2.</strong></h3>
+                <h5>I often try out new activities or hobbies.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 3.</strong></h3>
+                <h5>I easily open up about my true feelings.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 4.</strong></h3>
+                <h5>I don't mind confrontation with others.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 5.</strong></h3>
+                <h5>I am always very relaxed and calm.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 6.</strong></h3>
+                <h5>I'd rather do things quickly than perfectly.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 7.</strong></h3>
+                <h5>I have never told a single lie in my life.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 8.</strong></h3>
+                <h5>I am very dependable and self-disciplined.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 9.</strong></h3>
+                <h5>I really enjoy large gatherings of people.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <h3><strong>Question 10.</strong></h3>
+                <h5>I believe there is no absolute right and wrong.</h5>
+                <select class="custom-select" id="q1" style="width: 175px;">
+                    <option selected>select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 (Disagree)</option>
+                    <option value="3">3 (Neutral)</option>
+                    <option value="4">4 (Agree)</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br><br>
+                <button type="button" class="btn btn-primary btn-lg">Submit!</button>
+                <br><br><br><br>
+            </div>
+            <!-- empty buffer column -->
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JS needed for answer selections to work -->
+    <script type="text/javascript">
+        // Chosen CSS
+        var config = {
+            ".chosen-select": {},
+            ".chosen-select-deselect": {
+                allow_single_deselect: true
+            },
+            ".chosen-select-no-single": {
+            disable_search_threshold: 10
+            },
+            ".chosen-select-no-results": {
+                no_results_text: "Oops, nothing found!"
+            },
+            ".chosen-select-width": {
+                width: "95%"
+            }
+        };
+        for (var selector in config) {
+            $(selector).chosen(config[selector]);
+        }
+
+        // Capture all of the form inputs upon clicking Submit
+        $("#submit").on("click", function(event) {
+            event.preventDefault();
+            console.log('clicked submit');
+            // Form validation
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function() {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+                });
+                $(".chosen-select").each(function() {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+                });
+                return isValid;
+            }
+            // If all required fields are filled
+            if (validateForm()) {
+                // Create an object for the user"s data
+                var userData = {
+                name: $("#name").val(),
+                photo: $("#photo").val(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                ]
+                };
+                console.log("User data: ", userData);
+                // AJAX post the user data to the friends API.
+                $.post("/api/friends", userData, function(data) {
+
+                // Capture the result from the post above so that the best match's name and photo are displayed.
+                $("#match-name").text(data.name);
+                $("#match-img").attr("src", data.photo);
+
+                // Display the modal with the best match for user to see
+                $("#results-modal").modal("toggle");
+                });
+                
+            } else {
+                alert("You must fill out all fields before submitting!");
+            }
+        });
+    </script>
+</body>
