@@ -21,10 +21,15 @@ module.exports = function(app) {
                 calcOneQ += (Math.abs(parseInt(friendData[i].scores[j]) - parseInt(userScoresArray[j])));
             }
             calcTotal.push(calcOneQ);
+            console.log(calcOneQ);
+            console.log(calcTotal);
         }
         var calcMatch = Math.min(...calcTotal);
         var matchNum = calcTotal.indexOf(calcMatch);
         var match = friendData[matchNum];
+        console.log(calcMatch);
+        console.log(matchNum);
+        console.log(match);
 
         res.json(match);
     });
