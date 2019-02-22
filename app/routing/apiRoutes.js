@@ -2,7 +2,7 @@
 var friendData = require("../data/friends");
 
 // routing
-module.exports = function(app) {
+module.exports = function(app, parser) {
 
     // API GET request
     app.get("/api/friends", function(req, res) {
@@ -11,6 +11,7 @@ module.exports = function(app) {
 
     // API POST request
     app.post("/api/friends", function(req, res) {
+        console.log(req.body);
         friendData.push(req.body);
         var userScoresArray = req.body.scores;
         var calcOneQ = 0;
@@ -27,6 +28,7 @@ module.exports = function(app) {
         var calcMatch = Math.min(...calcTotal);
         var matchNum = calcTotal.indexOf(calcMatch);
         var match = friendData[matchNum];
+        calcTotal.splice(0,calcTotal.length);
         console.log(calcMatch);
         console.log(matchNum);
         console.log(match);
