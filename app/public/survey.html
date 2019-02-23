@@ -210,7 +210,6 @@
                     $("#q10").val()
                 ]
                 };
-                console.log("User data: " + userData);
                 // AJAX post the user data to the friends API.
                 $.post("/api/friends", userData, function(data) {
 

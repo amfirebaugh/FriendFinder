@@ -5,16 +5,16 @@ var friendData = [
         name: "Stewie Griffin",
         photo: "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Stewie_Griffin.png/220px-Stewie_Griffin.png",
         scores:[
-        5,
-        1,
         4,
         4,
-        5,
-        1,
-        2,
-        5,
         4,
-        1
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
         ]
     },
     {
@@ -39,13 +39,13 @@ var friendData = [
         scores:[
         5,
         5,
-        4,
-        4,
         5,
         5,
         5,
         5,
-        4,
+        5,
+        5,
+        5,
         5
         ]
     },
@@ -53,15 +53,15 @@ var friendData = [
         name: "Glenn Guagmire",
         photo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Glenn_Quagmire.png/220px-Glenn_Quagmire.png",
         scores:[
-        2,
         1,
         1,
-        2,
         1,
         1,
-        2,
-        2,
-        3,
+        1,
+        1,
+        1,
+        1,
+        1,
         1
         ]
     },
@@ -69,16 +69,16 @@ var friendData = [
         name: "Cleveland Brown",
         photo: "https://upload.wikimedia.org/wikipedia/en/e/e4/Cleveland_Brown.png",
         scores:[
-        4,
         2,
-        4,
-        4,
+        3,
         2,
+        3,
         2,
+        3,
         2,
-        5,
-        4,
-        2
+        3,
+        2,
+        3
         ]
     },
     {
@@ -86,31 +86,31 @@ var friendData = [
         photo: "https://vignette.wikia.nocookie.net/familyguy/images/9/9c/190px-Joe_Swanson.png/revision/latest?cb=20100326012234",
         scores:[
         5,
-        1,
         4,
-        3,
         5,
-        1,
-        2,
-        3,
         4,
-        1
+        5,
+        4,
+        5,
+        4,
+        5,
+        4
         ]
     },
     {
         name: "Meg Griffin",
         photo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Meg_Griffin.png/185px-Meg_Griffin.png",
         scores:[
-        5,
-        1,
-        5,
-        5,
-        5,
-        1,
-        1,
-        5,
-        1,
-        1
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4
         ]
     }
 ]

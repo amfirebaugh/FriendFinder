@@ -10,7 +10,7 @@ module.exports = function(app, parser) {
     });
 
     // API POST request
-    app.post("/api/friends", function(req, res) {
+    app.post("/api/friends", function(req, resp) {
         console.log(req.body);
         friendData.push(req.body);
         var userScoresArray = req.body.scores;
@@ -18,7 +18,8 @@ module.exports = function(app, parser) {
         var calcTotal = [];
 
         for (var i = 0; i < friendData.length - 1; i++) {
-            for (var j = 0; j < userScoresArray.length; j++) {
+            calcOneQ = 0;
+            for (var j = 0; j < 10; j++) {
                 calcOneQ += (Math.abs(parseInt(friendData[i].scores[j]) - parseInt(userScoresArray[j])));
             }
             calcTotal.push(calcOneQ);
@@ -29,10 +30,10 @@ module.exports = function(app, parser) {
         var matchNum = calcTotal.indexOf(calcMatch);
         var match = friendData[matchNum];
         calcTotal.splice(0,calcTotal.length);
-        console.log(calcMatch);
-        console.log(matchNum);
-        console.log(match);
+        // console.log(calcMatch);
+        // console.log(matchNum);
+        // console.log(match);
 
-        res.json(match);
+        resp.json(match);
     });
 };
