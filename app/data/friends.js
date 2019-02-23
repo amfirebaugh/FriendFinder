@@ -112,6 +112,38 @@ var friendData = [
         3,
         4
         ]
+    },
+    {
+        name: "Jose Dragon",
+        photo: "http://vivariumworld.co.uk/wp-content/uploads/2017/06/mexican-fiesta-costume-for-bearded-dragons-two-sizes-one-style.jpg",
+        scores: [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+        ]
+    },
+    {
+        name: "Lucy Goose",
+        photo: "https://upload.wikimedia.org/wikipedia/commons/3/39/Domestic_Goose.jpg",
+        scores: [
+        2,
+        1,
+        3,
+        5,
+        4,
+        2,
+        3,
+        5,
+        4,
+        4
+        ]
     }
 ]
 
